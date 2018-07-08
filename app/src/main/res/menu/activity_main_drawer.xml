@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Compass" />
+        <item
+            android:id="@+id/nav_send_mail"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Send Email" />
+        <item
+            android:id="@+id/nav_show_position"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Show Position" />
+        <item
+            android:id="@+id/nav_voice_command"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Voice Command" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Friends List" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
